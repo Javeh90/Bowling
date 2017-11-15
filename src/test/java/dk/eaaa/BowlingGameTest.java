@@ -29,7 +29,7 @@ public class BowlingGameTest {
 	public void testCanRollSpare() throws Exception {
 		game.roll(5);
 		game.roll(5);
-		game.roll(3);
+		game.roll(7);
 		rollMany(17, 0);
 		assertEquals(16, game.getScore());
 	}
